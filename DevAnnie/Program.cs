@@ -280,8 +280,7 @@ namespace DevAnnie
             if (itemManager.IsReadyDFG())
                 totalComboDamage += Player.GetItemDamage(eTarget, Damage.DamageItems.Dfg);
 
-            if (summonerSpellManager.IsReadyIgnite())
-                totalComboDamage += Player.GetSummonerSpellDamage(eTarget, Damage.SummonerSpell.Ignite);
+           
 
             return totalComboDamage;
         }
